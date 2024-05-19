@@ -1,0 +1,41 @@
+@media screen and (min-width: 769px) {
+    h1 {
+        font-size: 4rem;
+    }
+
+    .toggle-btn {
+        display: none;
+    }
+
+    .nav-menu {
+        display: flex;
+    }
+
+    .image-content img {
+        width: 200px;
+        display: block;
+    }
+
+    #contato {
+        padding: 0 5rem;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .txt-content p {
+        width: 650px;
+    }
+
+    .image-content img {
+        width: 300px;
+    }
+
+    #contato {
+        display: grid;
+        grid-template-columns: 2fr 2fr 1fr;
+    }
+
+    .map img {
+        width: 200px;
+    }
+}
